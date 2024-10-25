@@ -1,0 +1,65 @@
+conky.config = {
+-- **********************************************************************
+-- "CPU Panel (2-core)" theme for Conky by Tony George (teejee2008@gmail.com)
+
+-- Webpage: http://teejeetech.blogspot.in/
+-- **********************************************************************
+
+
+	background = true,
+	double_buffer = true,
+
+	alignment = 'top_right',
+
+	border_width = 1,
+	cpu_avg_samples = 2,
+	default_color = 'white',
+	default_outline_color = 'white',
+	default_shade_color = 'white',
+	draw_borders = false,
+	draw_graph_borders = true,
+	draw_outline = false,
+	draw_shades = false,
+
+	gap_x = 350,
+	gap_y = 20,
+	net_avg_samples = 2,
+	no_buffers = true,
+	out_to_console = false,
+	out_to_stderr = false,
+	extra_newline = false,
+
+	own_window = true,
+	own_window_type = '',
+	own_window_transparent = true,
+	own_window_colour = '000000',
+	own_window_argb_visual = true,
+	own_window_argb_value = 0,
+	own_window_hints = 'undecorated,below,sticky,skip_taskbar,skip_pager',
+
+	minimum_width = 100, minimum_height = 70,
+	stippled_borders = 0,
+	update_interval = 1.0,
+	uppercase = false,
+	use_spacer = 'none',
+
+	show_graph_scale = false,
+	show_graph_range = false,
+
+	use_xft = true,
+	xftalpha = 0.1,
+	font = 'Droid Sans:size=10',
+	color0 = 'white',
+	color1 = '#EAEAEA',
+	color2 = '#FFA300',
+	color3 = 'grey',
+
+};
+
+conky.text = [[
+${color #5FFAFF}CPU ${color0} ${cpu cpu0}%  ${color3}${cpubar cpu0 7,} 
+${cpugraph cpu0 40,137}${voffset -8}
+${cpugraph cpu1 33,69}${cpugraph cpu2 33,69}${voffset -6}
+${font Ubuntu:size=7}${voffset -23}${color3}${goto 3}1 ${goto 53}2
+${font Ubuntu:size=6}${voffset -6}${color3}${goto 36}${freq_g (1)}GHz ${goto 86}${freq_g (2)}GHz
+]];
