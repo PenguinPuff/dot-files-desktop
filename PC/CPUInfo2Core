@@ -1,35 +1,19 @@
 conky.config = {
--- **********************************************************************
--- "CPU Panel (2-core)" theme for Conky by Tony George (teejee2008@gmail.com)
-
--- Webpage: http://teejeetech.blogspot.in/
--- Edited by Penguin
--- **********************************************************************
-
-
 	background = true,
 	double_buffer = true,
-
-	alignment = 'top_right',
-
-	border_width = 1,
+	alignment = 'top_left',
+	border_width = 2,
 	cpu_avg_samples = 2,
 	default_color = 'white',
 	default_outline_color = 'white',
 	default_shade_color = 'white',
-	draw_borders = false,
 	draw_graph_borders = true,
 	draw_outline = false,
 	draw_shades = false,
-
-	gap_x = 350,
-	gap_y = 20,
+	gap_x = 240,
+	gap_y = 50,
 	net_avg_samples = 2,
 	no_buffers = true,
-	out_to_console = false,
-	out_to_stderr = false,
-	extra_newline = false,
-
 	own_window = true,
 	own_window_type = '',
 	own_window_transparent = true,
@@ -37,24 +21,18 @@ conky.config = {
 	own_window_argb_visual = true,
 	own_window_argb_value = 0,
 	own_window_hints = 'undecorated,below,sticky,skip_taskbar,skip_pager',
-
 	minimum_width = 100, minimum_height = 70,
-	stippled_borders = 0,
-	update_interval = 1.0,
-	uppercase = false,
+	stippled_borders = 1,
+	update_interval = 2.0,
+	uppercase = true,
 	use_spacer = 'none',
-
-	show_graph_scale = false,
-	show_graph_range = false,
-
 	use_xft = true,
 	xftalpha = 0.1,
-	font = 'Droid Sans:size=10',
+	font = 'Ubuntu:size=10',
 	color0 = 'white',
 	color1 = '#EAEAEA',
 	color2 = '#FFA300',
 	color3 = 'grey',
-
 };
 
 conky.text = [[
