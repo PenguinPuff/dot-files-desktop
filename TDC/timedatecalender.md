@@ -1,5 +1,5 @@
 # Sources:
-- for calendar, this is a very simple way of displaying the calendar: https://github.com/michaelnoguera/conky-calendar
+- for calendar, this is a very simple way of displaying the calendar: 
   ```
      October 2024   
   Su Mo Tu We Th Fr Sa
