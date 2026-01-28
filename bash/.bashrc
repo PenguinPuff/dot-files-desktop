@@ -1,23 +1,13 @@
 # ~/.bashrc: executed by bash(1) for non-login shells.
-# see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
-# for examples
-echo "______                      _            a8888b.        "   
-echo "| ___ \                    (_)          d888888b.       "      
-echo "| |_/ /__ _ __   __ _ _   _ _ _ __      8PPYPPY88       " 
-echo "|  __/ _ \ '_ \ / _  | | | | | _  \     8|o||o|88        "
-echo "| | |  __/ | | | (_| | |_| | | | | |    8'    .88       "
-echo "\_|  \___|_| |_|\__, |\__,_|_|_| |_|    8\`._.\`Y8.        "
-echo "                 __/ |                  d/     \'8b.                        "
-echo "                |___/                 .dP   .     Y8b.                        "    
-echo "                                    d8:\'   \"   \`::88b.                       "  
-echo "                                   d8\"           \`Y88b"
-echo "                                   :8P     \'       :888"
-echo "                                    8a.    :      _a88P                       "
-echo "                                  ._/\"Yaa_ :    .| 88P|"
-echo "                                   \    YP\"      \`| 8P  \`."
-echo "                                   /     \._____.d|    .\'"
-echo "                                   \`--..__)888888P\`._.\'"
-echo ""
+echo "______                      _               __        "
+echo "| ___ \                    (_)           -=(o '.       "
+echo "| |_/ /__ _ __   __ _ _   _ _ _ __          '.-.\       "
+echo "|  __/ _ \ '_ \ / _  | | | | | _  \         /|  \\        "
+echo "| | |  __/ | | | (_| | |_| | | | | |        '|  ||       "
+echo "\_|  \___|_| |_|\__, |\__,_|_|_| |_|         _\_):,_       "
+echo "                 __/ |                                          "
+echo "                |___/                                         "
+echo " "
 
 wiki() {
     search_term="${1}"
