@@ -1,3 +1,2 @@
 # Dot Files
-- All the Dot Files I use on my system as of 2025 :)
-![image](Images/desktop.png)
+- KDE plasma is cool and emacs is better than vim so this repo is deadge
